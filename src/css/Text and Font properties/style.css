@@ -1,0 +1,53 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Qwitcher+Grypen&display=swap');
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+
+    }
+
+    .heading{
+        background-color: #2ec4b6;
+        width: 500px;
+        height: 90px;
+        line-height: 74px;
+        margin: 20px auto;
+        color: #fff;
+        padding: 8px 12px;
+        text-align: center;
+        font-family: 'Qwitcher Grypen', cursive;
+    }
+
+    .content{
+        padding: 20px;
+        margin: 20px auto;
+        background-color: #0a9396;
+        color: #fff;
+        width: 600px;
+        height: 100px;
+        text-align: justify;
+        text-decoration: none;
+        text-transform: none;
+
+        font-size: 16px;
+        font-weight: 500;
+        font-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+
+        /* border-width: 20px;
+        border-style:dotted;
+        border-color: black; */
+
+        border:20px dotted #000;
+        border-radius: 68% 68% 77% 23% / 50% 37% 52% 54%;
+    }
+    .btn-link{
+        color: #000;
+        text-decoration: none;
+    
+    }
+
+    .none-underline{
+        text-decoration: none!important;
+    }

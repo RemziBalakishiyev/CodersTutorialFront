@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+    html{
+        font-size: 16px;
+    }
+
+    body{
+        font-size: 10px;
+    }
+
+
+    h1{
+        font-size: 1.6rem;
+    }
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 30vh;
+    width: 100%;
+    background-color: #01e1ff;
+}
+
+.navbar h1{
+    color: #fff;
+}
+
+.navbar p{
+    font-size: 1.2rem;
+    margin-left: 30em;
+}
+
+
+
+
+
+@media screen and  (max-width: 700px)   {
+   
+    html{
+        font-size: 10px;
+    }
+    body{
+        font-size: 5px;
+    }
+}
+
+
+
+

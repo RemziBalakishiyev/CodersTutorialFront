@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    width: 100%;
+    background-color: #fff;
+    height: 96px;
+    position: relative;
+}
+
+.list-group{
+    position: absolute;
+    top:36px;
+    left:220px; 
+}
+.list-item{
+    display: inline-block;
+    margin-left: 91px;
+}
+
+.button-group{
+    position: absolute;
+    right: 60px;
+    top:36px;
+}
+
+
+
