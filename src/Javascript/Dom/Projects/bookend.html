@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Orderingn</title>
+    <link rel="stylesheet" href="./bookend.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="header">
+        <h1>Book Boolean</h1>
+        <p>
+            You can't be a <span>Backend</span>, but <br />
+            you can be a good
+            <span>Bookend</span>
+        </p>
+    </div>
+    <div class="ordering-section">
+        <div class="order-left">
+            <div class="ordering-names">
+                <p>Name</p>
+                <p>Author</p>
+                <p>Count</p>
+                <p>Price</p>
+                <p>Title</p>
+            </div>
+            <form class="ordering-inputs">
+                <input type="text" placeholder="Enter your book name" class="name-input" />
+
+                <br />
+                <input type="text" placeholder="Enter your book author" class="author-input" /><br />
+                <input type="number" placeholder="Enter page count" class="page-input" /><br />
+                <input type="number" placeholder="Enter price" class="price-input" /><br />
+                <input type="text" placeholder="Enter title" class="title-input" /><br />
+
+                <div class="book-name-validation-summary"></div>
+            </form>
+        </div>
+        <button class="order-button">Order</button>
+
+        <div class="order-table">
+            <table id="bookTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Author</th>
+                        <th>Count</th>
+                        <th>Price</th>
+                        <th>Title</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="./bookend.js"></script>
+</body>
+
+</html>

@@ -13,11 +13,10 @@
 //     }else{
 //         confirm("Axsaminiz xeyir!")
 //     }
-   
+
 // }else{
 //     confirm("Vaxti dogru daxil etmemisiniz")
 // }
-
 
 // let number = Math.pow(2,3);
 // number = Math.sqrt(16);
@@ -27,8 +26,7 @@
 // number =  Math.floor(6.9);
 // console.log(number)
 
-
-console.log(6 % 4)
+console.log(6 % 4);
 
 // const numberFromPrompt = prompt("Give any number")
 
@@ -51,10 +49,7 @@ console.log(6 % 4)
 //     console.warn("Eded daxil edin")
 // }
 
-
 //  console.log(number)
-
-
 
 let hasComputer = false;
 /*
@@ -67,25 +62,21 @@ if(hasComputer){
 //                 // If                                           // else
 // hasComputer ?  console.log("You can learn programming") : console.log("You must buy computer ✈")
 
-
 // let computerBuyyingSettence;
 
 // // console.log(computerBuyyingSettence)
 
-// computerBuyyingSettence = hasComputer 
-// ? "You can learn programming" 
+// computerBuyyingSettence = hasComputer
+// ? "You can learn programming"
 // : "You must buy computer ✈"
 
 // console.log(computerBuyyingSettence)
 
-// console.log(`I wanna learn programming I don't have computer ${computerBuyyingSettence = hasComputer 
-//     ? "You can learn programming" 
+// console.log(`I wanna learn programming I don't have computer ${computerBuyyingSettence = hasComputer
+//     ? "You can learn programming"
 //     : "You must buy computer ✈"}`)
 
-
- 
 //     let dayOfWeek = "Wensday";
-
 
 //     switch (dayOfWeek) {
 //         case "Monday":
@@ -99,13 +90,19 @@ if(hasComputer){
 //             console.log("There is not this day");
 //             break;
 //     }
- 
 
+if (13 === "13") {
+  console.log("It is work!");
+} else {
+  console.log("It isn't work!");
+}
 
+// let priceWithPercentage = phone.price * (5 / 100);
 
-    if(13 === "13"){
-        console.log("It is work!")
-    }else{
-        console.log("It isn't work!")
-    }
-    
+// let monthlyPrice = priceWithPercentage / 6;
+
+const monthlyPrice = phone.calcCredit(6, 10);
+
+if (monthlyPrice > 200) {
+  alert("Bahali telefon");
+}
